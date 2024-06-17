@@ -38,8 +38,8 @@ export default function RootLayout({
       >
         <HeaderCatto />
         <div className="mt-20 flex h-full">
-          <div className="h-full flex-[1] bg-gradient-to-r from-gray-500 to-gray-900"></div>
-          <main className="flex-[98] bg-gray-700">{children}</main>
+          <div className="flex-[1] bg-gradient-to-r from-gray-500 to-gray-900"></div>
+          <main className="flex-[98] dark:bg-gray-700 bg-gray-200">{children}</main>
           <div className="flex-[1] bg-gradient-to-r from-gray-900 to-gray-500"></div>
         </div>
         <FooterCatto />
