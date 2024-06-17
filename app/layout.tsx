@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+// import { Inter } from 'next/font/google';
 import { montserrat } from './ui/fonts';
 import FooterCatto from './components/FooterCatto/FooterCatto';
 import HeaderCatto from './components/HeaderCatto/HeaderCatto';
+// import GA4TagCatto from './components/Utils/GA4TagCatto/GA4TagCatto';
 import './ui/global.css';
+// import '@/app/ui/global.css';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -21,6 +23,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // <html className="dark">
+    //   <body>
+    //     <h1 className='text-blue-600 dark:text-blue-600'>hey now</h1>
+    //     <div className='bg-orange-500 text-amber-500'>
+    //       <h3 >3rd </h3>
+    //     </div>
+
+    //   </body>
+    // </html>
     <html lang="en" className="dark">
       <body
         className={`min-h-[calc(100vh-26rem)] ${montserrat.className} absolute m-0 flex w-screen flex-col overflow-x-hidden bg-gray-800 antialiased`}
