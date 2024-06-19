@@ -7,6 +7,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return <>
-    <h1>page body</h1>
+    <div className='rounded'>
+      Main
+    </div>
   </>;
 }
