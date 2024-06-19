@@ -5,11 +5,11 @@ import React from 'react';
 const NavLinksCatto = () => {
   return (
     <>
-      <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 md:dark:bg-gray-900">
         <li>
           <Link
             href="/"
-            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            className="font-medium text-blue-600 hover:underline dark:text-blue-500"
           >
             Home
           </Link>
@@ -17,7 +17,7 @@ const NavLinksCatto = () => {
         <li>
           <Link
             href="/page"
-            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            className="font-medium text-blue-600 hover:underline dark:text-blue-500"
           >
             Page
           </Link>
