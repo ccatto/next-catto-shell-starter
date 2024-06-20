@@ -1,4 +1,3 @@
-// import { GTM_ID } from '@/app/constants/constants';
 import { GTM_ID } from '../../../constants/constants';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import React from 'react';

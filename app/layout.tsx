@@ -1,12 +1,9 @@
 import type { Metadata } from 'next';
-// import { Inter } from 'next/font/google';
 import { montserrat } from './ui/fonts';
 import FooterCatto from './components/FooterCatto/FooterCatto';
 import HeaderCatto from './components/HeaderCatto/HeaderCatto';
-// import GA4TagCatto from './components/Utils/GA4TagCatto/GA4TagCatto';
+import GA4TagCatto from './components/Utils/GA4TagCatto/GA4TagCatto';
 import './ui/global.css';
-
-// const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -36,6 +33,7 @@ export default function RootLayout({
         </div>
         <FooterCatto />
       </body>
+      <GA4TagCatto />
     </html>
   );
 }
