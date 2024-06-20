@@ -6,5 +6,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <>title</>;
+  return (
+    <>
+      <div className="rounded">Main</div>
+    </>
+  );
 }
